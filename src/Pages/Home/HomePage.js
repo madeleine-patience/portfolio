@@ -44,16 +44,6 @@ const HomePage = () => {
           </a>
 
           <a
-            href="https://twitter.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <span className="socialbtn text-[#1C9CEA]">
-              <FaTwitter />
-            </span>
-          </a>
-
-          <a
             href="https://www.linkedin.com/"
             target="_blank"
             rel="noopener noreferrer"
