@@ -68,9 +68,9 @@ const About = () => {
                       or local coffee shop reccomendations!
                     </p>
                     <p className="text-gray-lite leading-7 mt-2.5 dark:text-color-910">
-                      My aim is to bring across your message and identity in the
-                      most creative way. I created web design for many famous
-                      brand companies.
+                      If you want to chat I'd love to talk anything coding,
+                      #womenInTech, film photography, "west coast is best coast"
+                      or local coffee shop reccomendations!
                     </p>
                   </div>
 
@@ -93,7 +93,7 @@ const About = () => {
                               className="hover:text-[#FA5252] duration-300 transition"
                               href="tel:+1234567890"
                             >
-                              +123 456 7890
+                              +1 250 857 2308
                             </a>
                           </h6>
                         </div>
@@ -107,7 +107,7 @@ const About = () => {
                             Location
                           </p>
                           <h6 className="font-medium dark:text-white">
-                            Hong kong china
+                            Victoria B.C.
                           </h6>
                         </div>
                       </div>
@@ -124,7 +124,7 @@ const About = () => {
                               className="hover:text-[#FA5252] duration-300 transition"
                               href="mailto:ibthemes21@gmail.com"
                             >
-                              example@mail.com
+                              madeleinepbelanger@gmail.com
                             </a>
                           </h6>
                         </div>

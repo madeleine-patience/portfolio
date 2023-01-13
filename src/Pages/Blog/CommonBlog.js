@@ -1,26 +1,31 @@
-import React from "react";
-import Footer from "../../Share/Footer";
-import UseData from "../../Hooks/UseData";
-import { BsXCircle } from "react-icons/bs";
-import Modal from "react-modal";
-import user from "../../assets/images/about/about.jpg";
+import React from 'react'
+import Footer from '../../Share/Footer'
+import UseData from '../../Hooks/UseData'
+import { BsXCircle } from 'react-icons/bs'
+import Modal from 'react-modal'
+import user from '../../assets/images/about/about.jpg'
 import {
   FaDribbble,
   FaFacebookF,
   FaLinkedinIn,
   FaTwitter,
-} from "react-icons/fa";
-import PageTitle from "../../Share/PageTitle";
+} from 'react-icons/fa'
+import PageTitle from '../../Share/PageTitle'
 
 const CommonBlog = ({ items, count }) => {
-  const { local } = UseData();
-  const { isOpen, setIsOpen, singleData, handleBlogsData, blogsData } =
-    UseData();
+  const { local } = UseData()
+  const {
+    isOpen,
+    setIsOpen,
+    singleData,
+    handleBlogsData,
+    blogsData,
+  } = UseData()
   const handleModle = (id) => {
-    handleBlogsData(id);
-  };
+    handleBlogsData(id)
+  }
 
-  const blogDescriptionSplit = singleData?.description?.split("\n");
+  const blogDescriptionSplit = singleData?.description?.split('\n')
   return (
     <>
       <PageTitle title="Blog"></PageTitle>
@@ -37,8 +42,8 @@ const CommonBlog = ({ items, count }) => {
               <div
                 className={`${
                   items
-                    ? "grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-[40px]"
-                    : "grid-cols-1 sm:grid-cols-2 lg:grid-cols-2  mt-[30px]"
+                    ? 'grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-[40px]'
+                    : 'grid-cols-1 sm:grid-cols-2 lg:grid-cols-2  mt-[30px]'
                 } grid   gap-x-10 gap-y-7  mb-6`}
               >
                 {/* Blog items start */}
@@ -48,7 +53,7 @@ const CommonBlog = ({ items, count }) => {
                       key={item.id}
                       style={{
                         background: `${
-                          local === "dark" ? "transparent" : item?.bg
+                          local === 'dark' ? 'transparent' : item?.bg
                         }`,
                       }}
                       className="p-5 rounded-lg mb-2 h-full dark:border-[#212425] dark:border-2"
@@ -74,7 +79,7 @@ const CommonBlog = ({ items, count }) => {
                         {item?.title}
                       </h3>
                     </div>
-                  );
+                  )
                 })}
               </div>
             </div>
@@ -89,7 +94,7 @@ const CommonBlog = ({ items, count }) => {
               <div className=" w-full  md:w-10/12 flex items-center   lg:w-[850px] bg-white dark:bg-[#323232] mx-auto rounded-xl p-4 md:p-8 absolute left-1/2 top-1/2 transform -translate-x-[50%] -translate-y-[50%] shadow-lg ">
                 <div
                   className={`${
-                    local === "dark" ? "scrollbarDark" : "scrollbarLight"
+                    local === 'dark' ? 'scrollbarDark' : 'scrollbarLight'
                   } overflow-y-scroll max-h-[80vh] `}
                 >
                   <div className="pr-3 pb-2">
@@ -135,7 +140,7 @@ const CommonBlog = ({ items, count }) => {
                         <div className="flex justify-between items-center">
                           <h3 className="dark:text-white text-[22px] font-medium">
                             Rafia Ana
-                          </h3>{" "}
+                          </h3>{' '}
                           <span className="dark:text-[#dedede] text-tiny ">
                             15 min ago
                           </span>
@@ -231,11 +236,11 @@ const CommonBlog = ({ items, count }) => {
           {/* End .blog */}
 
           {/* Common Footer call here */}
-          <Footer condition={true} bg={"#F8FBFB"} />
+          <Footer condition={true} bg={'#F8FBFB'} />
         </div>
       </section>
     </>
-  );
-};
+  )
+}
 
-export default CommonBlog;
+export default CommonBlog

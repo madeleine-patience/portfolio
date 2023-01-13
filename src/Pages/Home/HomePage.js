@@ -28,20 +28,11 @@ const HomePage = () => {
         <h3 className="mt-6 mb-1 text-5xl font-semibold dark:text-white">
           Madeleine Belanger
         </h3>
-        <p className="mb-4 text-[#7B7B7B]">Ui/Ux Designer</p>
+        <p className="mb-4 text-[#7B7B7B]">Full Stack Developer</p>
         {/* Avatar Info End */}
 
         {/* Social information start */}
         <div className="flex space-x-3">
-          <a
-            href="https://www.facebook.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <span className="socialbtn text-[#1773EA]">
-              <FaFacebookF />
-            </span>
-          </a>
           <a
             href="https://twitter.com/"
             target="_blank"
@@ -51,15 +42,17 @@ const HomePage = () => {
               <FaTwitter />
             </span>
           </a>
+
           <a
-            href="https://dribbble.com/"
+            href="https://twitter.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <span className="socialbtn text-[#e14a84] ">
-              <FaDribbble />
+            <span className="socialbtn text-[#1C9CEA]">
+              <FaTwitter />
             </span>
           </a>
+
           <a
             href="https://www.linkedin.com/"
             target="_blank"
@@ -79,7 +72,7 @@ const HomePage = () => {
           className="flex items-center bg-gradient-to-r from-[#FA5252] to-[#DD2476] duration-200 transition ease-linear hover:bg-gradient-to-l from-[#DD2476]  to-[#fa5252ef] px-8 py-3 text-lg text-white rounded-[35px] mt-6"
         >
           <img src={downloadIcon} alt="icon" className="mr-2" />
-          Download CV
+          Download Resume
         </a>
 
         {/* Dowanload button End */}

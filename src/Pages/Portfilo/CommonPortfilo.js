@@ -1,14 +1,14 @@
-import React, { useState } from "react";
-import Masonry from "react-masonry-css";
-import Modal from "react-modal";
-import UseData from "../../Hooks/UseData";
-import Footer from "../../Share/Footer";
-import { FiUser, FiCode, FiFilePlus, FiExternalLink } from "react-icons/fi";
-import { BsXCircle } from "react-icons/bs";
-import { useEffect } from "react";
-import PageTitle from "../../Share/PageTitle";
+import React, { useState } from 'react'
+import Masonry from 'react-masonry-css'
+import Modal from 'react-modal'
+import UseData from '../../Hooks/UseData'
+import Footer from '../../Share/Footer'
+import { FiUser, FiCode, FiFilePlus, FiExternalLink } from 'react-icons/fi'
+import { BsXCircle } from 'react-icons/bs'
+import { useEffect } from 'react'
+import PageTitle from '../../Share/PageTitle'
 
-Modal.setAppElement("#root");
+Modal.setAppElement('#root')
 
 const CommonPortfilo = ({ condition, items }) => {
   const {
@@ -19,27 +19,27 @@ const CommonPortfilo = ({ condition, items }) => {
     isOpen,
     setIsOpen,
     singleData,
-  } = UseData();
-  const [test, setTest] = useState("All");
+  } = UseData()
+  const [test, setTest] = useState('All')
   const handleSearch = (text) => {
-    handleData(text);
-    setTest(text);
-  };
+    handleData(text)
+    setTest(text)
+  }
   useEffect(() => {
-    setTest("All");
-    handleData("All");
-  }, []);
+    setTest('All')
+    handleData('All')
+  }, [])
   const handleModle = (id) => {
-    handleModelData(id);
-  };
+    handleModelData(id)
+  }
 
-  const item = condition ? 3 : 2;
+  const item = condition ? 3 : 2
 
   const breakpointColumnsObj = {
     default: item,
     1100: 2,
     500: 1,
-  };
+  }
 
   return (
     <>
@@ -58,50 +58,9 @@ const CommonPortfilo = ({ condition, items }) => {
 
               <ul
                 className={`${
-                  item === 2 ? "mt-[30px] " : "mt-[40px]"
+                  item === 2 ? 'mt-[30px] ' : 'mt-[40px]'
                 } flex w-full justify-start md:justify-end  flex-wrap   font-medium`}
-              >
-                <li
-                  className={`${
-                    test === "All" ? "text-[#FA5252]" : "fillter-btn "
-                  } mr-4 md:mx-4`}
-                  onClick={() => handleSearch("All")}
-                >
-                  All
-                </li>
-                <li
-                  className={`${
-                    test === "Video" ? "text-[#FA5252]" : "fillter-btn"
-                  } mr-4 md:mx-4`}
-                  onClick={() => handleSearch("Video")}
-                >
-                  Video
-                </li>
-                <li
-                  className={`${
-                    test === "Web Design" ? "text-[#FA5252]" : "fillter-btn"
-                  } mr-4 md:mx-4`}
-                  onClick={() => handleSearch("Web Design")}
-                >
-                  Web Design
-                </li>
-                <li
-                  className={`${
-                    test === "Logo" ? "text-[#FA5252]" : "fillter-btn ml-0"
-                  } mr-4 md:mx-4`}
-                  onClick={() => handleSearch("Logo")}
-                >
-                  Logo
-                </li>
-                <li
-                  className={`${
-                    test === "UI/UX" ? "text-[#FA5252]" : "fillter-btn"
-                  }  `}
-                  onClick={() => handleSearch("UI/UX")}
-                >
-                  Graphic Design
-                </li>
-              </ul>
+              ></ul>
 
               {/* Portfilo fillter tab start */}
             </div>
@@ -117,7 +76,7 @@ const CommonPortfilo = ({ condition, items }) => {
                 <div
                   style={{
                     background: `${
-                      local === "dark" ? "transparent" : item?.bg
+                      local === 'dark' ? 'transparent' : item?.bg
                     }`,
                   }}
                   className="rounded-lg p-6 dark:border-[2px] border-[#212425]"
@@ -167,7 +126,7 @@ const CommonPortfilo = ({ condition, items }) => {
                     <div className="space-y-2">
                       <p className="dark:text-white flex items-center text-[15px]  sm:text-lg ">
                         <FiFilePlus className="sm:text-lg hidden sm:block mr-2  md:text-xl" />
-                        Project :&nbsp;{" "}
+                        Project :&nbsp;{' '}
                         <span className="font-medium "> Website</span>
                       </p>
                       <p className="dark:text-white flex items-center text-[15px]  sm:text-lg ">
@@ -218,11 +177,11 @@ const CommonPortfilo = ({ condition, items }) => {
           {/* End Portfolio */}
 
           {/* Common Footer call here*/}
-          <Footer condition={true} bg={"#F8FBFB"} />
+          <Footer condition={true} bg={'#F8FBFB'} />
         </div>
       </section>
     </>
-  );
-};
+  )
+}
 
-export default CommonPortfilo;
+export default CommonPortfilo

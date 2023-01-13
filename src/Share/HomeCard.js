@@ -84,7 +84,7 @@ const HomeCard = () => {
                     className="hover:text-[#FA5252] duration-300 transition"
                     href="tel:+1234567890"
                   >
-                    +123 456 7890
+                              +1 250 857 2308
                   </a>
                 </p>
               </div>
@@ -130,13 +130,13 @@ const HomeCard = () => {
                 <p className="text-xs text-[#44566C] dark:text-[#A6A6A6]">
                   Birthday
                 </p>
-                <p className="dark:text-white break-all">May 27, 1990</p>
+                <p className="dark:text-white break-all">July 8th 1990</p>
               </div>
             </div>
           </div>
 
           <a
-            href={cvFile}
+            href="https://pdfhost.io/v/VMSMXDBNp_Minimalist_White_and_Grey_Professional_Resume"
             download
             className="inline-flex items-center mx-auto bg-gradient-to-r from-[#FA5252] to-[#DD2476] duration-200 transition ease-linear hover:bg-gradient-to-l from-[#deb2af]  to-[#84c482] px-8 py-3 text-lg text-white rounded-[35px] mt-6"
           >
