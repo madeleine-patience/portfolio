@@ -138,7 +138,7 @@ const About = () => {
                             Birthday
                           </p>
                           <h6 className="font-medium dark:text-white">
-                            May 27, 1990
+                            July 8th, 1990
                           </h6>
                         </div>
                       </div>
