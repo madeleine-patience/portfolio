@@ -44,6 +44,7 @@ const HomePage = () => {
           </a>
 
           <a
+<<<<<<< HEAD
             href="https://twitter.com/"
             target="_blank"
             rel="noopener noreferrer"
@@ -56,6 +57,8 @@ const HomePage = () => {
 
 
           <a
+=======
+>>>>>>> d44d3a158a39774d5f54aacc8ae4ad5ea7b5b428
             href="https://www.linkedin.com/"
             target="_blank"
             rel="noopener noreferrer"
