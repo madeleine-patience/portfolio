@@ -13,11 +13,14 @@ import ContactTwo from './Pages/Contact/ContactTwo'
 import Home from './Pages/Home/Home'
 import HomePage from './Pages/Home/HomePage'
 import HomeTwo from './Pages/Home/HomeTwo'
+import MainPage from './Pages/Home/MainPage'
 import Portfilo from './Pages/Portfilo/Portfilo'
 import PortfiloTwo from './Pages/Portfilo/PortfiloTwo'
 import Resume from './Pages/Resume/Resume'
+
 import ResumeTwo from './Pages/Resume/ResumeTwo'
 import NotFound from './Share/NotFound'
+
 import Preview from './Share/Preview'
 
 function App() {
@@ -32,8 +35,8 @@ function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/home" element={<Home />}>
-              <Route index element={<HomePage />} />
               <Route path="homePage" element={<HomePage />} />
+              <Route path="mainPage" element={<MainPage />} />
               <Route path="resume" element={<Resume />} />
               <Route path="about" element={<About />} />
               <Route path="contact" element={<Contact />} />

@@ -284,7 +284,7 @@ const AllData = () => {
     {
       id: '01',
       name: 'Home',
-      link: '/home/homePage',
+      link: '/home/MainPage',
       icon: <AiOutlineHome />,
     },
     {

@@ -92,7 +92,7 @@ const Header = () => {
                         : '  dark:hover:text-white dark:bg-[#212425] hover:text-white   hover:bg-gradient-to-r from-[#aaa0eb] to-[#a299da] dark:text-[#A6A6A6] '
                     }  transition-all duration-300 ease-in-out `}
                     className={`${
-                      a.pathname === '/homePage' && item.id === '01'
+                      a.pathname === '/MainPage' && item.id === '01'
                         ? 'text-white linked dark:text-white bg-gradient-to-r from-[#aaa0eb] to-[#a299da]'
                         : ' '
                     } ${

@@ -59,9 +59,9 @@ const About = () => {
                       show up and get the job done every day.
                     </p>
                     <p className="text-gray-lite leading-7 mt-8 dark:text-color-910">
-                      If you want to chat I'd love to talk anything coding,
-                      #womenInTech, film photography, "west coast is best coast"
-                      or local coffee shop reccomendations!
+                      If you want to chat I'd love to talk anything tech
+                      related, #womenInTech, film photography, "west coast is
+                      best coast" or local coffee shop reccomendations!
                     </p>
                   </div>
 
