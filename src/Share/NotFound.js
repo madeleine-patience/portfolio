@@ -1,6 +1,6 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import PageTitle from "./PageTitle";
+import React from 'react'
+import { Link } from 'react-router-dom'
+import PageTitle from './PageTitle'
 
 const NotFound = () => {
   return (
@@ -16,13 +16,13 @@ const NotFound = () => {
 
         <Link
           to="/"
-          className="flex items-center mx-auto bg-gradient-to-r from-[#FA5252] to-[#DD2476] duration-200 transition ease-linear hover:bg-gradient-to-l from-[#DD2476]  to-[#fa5252ef] px-8 py-3 text-lg text-white rounded-[5px]"
+          className="flex items-center mx-auto bg-gradient-to-r from-[#aaa0eb] to-[#a299da] duration-200 transition ease-linear hover:bg-gradient-to-l from-[#aaa0eb] to-[#a299da] px-8 py-3 text-lg text-white rounded-[5px]"
         >
           Back To Home
         </Link>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default NotFound;
+export default NotFound

@@ -127,7 +127,7 @@ const CommonBlog = ({ items, count }) => {
                   </div>
 
                   {/* Comment show section */}
-                  <div className="rounded-lg mt-6 bg-gradient-to-r from-[#FA5252] to-[#DD2476] p-[1px] mr-3">
+                  <div className="rounded-lg mt-6 bg-gradient-to-r from-[#aaa0eb] to-[#a299da] p-[1px] mr-3">
                     <div className=" dark:bg-[#232220] bg-[#ffffff]   flex  p-4 rounded-lg  ">
                       <div>
                         <img
@@ -221,7 +221,7 @@ const CommonBlog = ({ items, count }) => {
                             rows="3"
                           ></textarea>
                         </label>
-                        <button className="flex items-center  bg-gradient-to-r from-[#FA5252] to-[#DD2476] duration-200 transition ease-linear  hover:bg-gradient-to-l from-[#DD2476]  to-[#fa5252ef] px-8 py-[12px] text-lg text-white rounded-[35px] mt-8">
+                        <button className="flex items-center  bg-gradient-to-r from-[#aaa0eb] to-[#a299da] duration-200 transition ease-linear  hover:bg-gradient-to-l from-[#aaa0eb] to-[#a299da] px-8 py-[12px] text-lg text-white rounded-[35px] mt-8">
                           Comment
                         </button>
                       </form>

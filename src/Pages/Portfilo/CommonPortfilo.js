@@ -119,7 +119,7 @@ const CommonPortfilo = ({ condition, items }) => {
                     onClick={() => setIsOpen(false)}
                     className="text-7xl cursor-pointer  absolute right-2 -top-12 md:-right-10 md:-top-6 z-50  text-white transition transform hover:rotate-45 duration-300 ease-in-out "
                   />
-                  <h2 className="text-[#ef4060] dark:hover:text-[#FA5252] text-4xl text-center font-bold">
+                  <h2 className="text-[#aaa0eb] dark:hover:text-[#FA5252] text-4xl text-center font-bold">
                     {singleData.tag} Project
                   </h2>
                   <div className="grid grid-cols-1 lg:grid-cols-2 my-6">
@@ -148,7 +148,7 @@ const CommonPortfilo = ({ condition, items }) => {
                       <p className="dark:text-white flex items-center text-[15px] sm:text-lg ">
                         <FiExternalLink className="text-lg mr-2 hidden sm:block" />
                         Preview :&nbsp;
-                        <span className="font-medium transition-all duration-300 ease-in-out hover:text-[#ef4060] ">
+                        <span className="font-medium transition-all duration-300 ease-in-out hover:text-[#aaa0eb] ">
                           <a
                             href={singleData?.link}
                             target="_blank"

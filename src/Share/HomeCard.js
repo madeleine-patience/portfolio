@@ -9,6 +9,7 @@ import {
   FaMapMarkerAlt,
   FaMobileAlt,
   FaTwitter,
+  FaTwitch,
 } from 'react-icons/fa'
 import img from '../assets/images/about/avatar.jpg'
 import downloadIcon from '../assets/images/download.png'
@@ -64,6 +65,15 @@ const HomeCard = () => {
             >
               <span className="socialbtn text-[#0072b1]">
                 <FaLinkedinIn />
+              </span>
+            </a>
+            <a
+              href="https://www.linkedin.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="socialbtn text-[#0072b1]">
+                <FaTwitch />
               </span>
             </a>
           </div>
@@ -138,7 +148,7 @@ const HomeCard = () => {
           <a
             href="https://pdfhost.io/v/VMSMXDBNp_Minimalist_White_and_Grey_Professional_Resume"
             download
-            className="inline-flex items-center mx-auto bg-gradient-to-r from-[#FA5252] to-[#DD2476] duration-200 transition ease-linear hover:bg-gradient-to-l from-[#deb2af]  to-[#84c482] px-8 py-3 text-lg text-white rounded-[35px] mt-6"
+            className="inline-flex items-center mx-auto bg-gradient-to-r from-[#aaa0eb] to-[#a299da] duration-200 transition ease-linear hover:bg-gradient-to-l from-[#deb2af]  to-[#84c482] px-8 py-3 text-lg text-white rounded-[35px] mt-6"
           >
             <img src={downloadIcon} alt="icon" className="mr-2" />
             Download CV

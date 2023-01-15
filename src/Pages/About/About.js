@@ -46,28 +46,19 @@ const About = () => {
                       Who am i?
                     </h3>
                     <p className="text-gray-lite  dark:text-color-910 leading-7">
-                      Hi! I’m Madeleine. I recently made the switch from a
-                      career in marketing to the exciting world of tech. With a
-                      background in marketing and experience as a designer and
-                      illustrator, I have a unique perspective on how to
-                      approach problems and generate creative solutions. I'm
-                      currently pursuing a career as a software developer and am
-                      constantly learning and growing in this dynamic industry.
-                      Its exciting for me to learn new technologies and enjoy
-                      staying up-to-date on the latest trends and developments
-                      in the field. In addition to my tech interests, I also
-                      enjoy using my design and illustration skills to create
-                      unique and engaging visuals. (AKA, I know what looks
-                      good!) With a background in psychology and years of
-                      working in teams and one on one with people- My
-                      communication and people skills help me to be a well
-                      rounded employee. Im so excited to bring all my past
-                      experience and knowledge to a new position as a developer!
-                      If you want to chat I'd love to talk anything coding,
-                      #womenInTech, film photography, "west coast is best coast"
-                      or local coffee shop reccomendations!
+                      Hi! My name is Madeleine and I am a full stack software
+                      developer! Prior to making the switch from Marketing to
+                      Tech- I worked for well known startups doing product
+                      building and influencer marketing. This helped me to
+                      realize that what I really wanted to do was the building
+                      of products! With my background in design and marketing
+                      combined with a degree in psychology - I can communicate
+                      my ideas clearly, build what I need to build and make it
+                      look good! I see myself as an enthusiastic, hardworking,
+                      life long learner with a positive attitude and a desire to
+                      show up and get the job done every day.
                     </p>
-                    <p className="text-gray-lite leading-7 mt-2.5 dark:text-color-910">
+                    <p className="text-gray-lite leading-7 mt-8 dark:text-color-910">
                       If you want to chat I'd love to talk anything coding,
                       #womenInTech, film photography, "west coast is best coast"
                       or local coffee shop reccomendations!

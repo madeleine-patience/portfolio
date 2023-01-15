@@ -26,14 +26,14 @@ const Header = () => {
                 {!check ? (
                   <span
                     onClick={() => handle('dark')}
-                    className="bg-white w-[40px]  opacity-100 visible flex lg:opacity-0 lg:hidden  h-[40px]  rounded-full  justify-center items-center hover:bg-[#ef4060] text-black hover:text-white transition-all duration-300 ease-in-out cursor-pointer  ml-4"
+                    className="bg-white w-[40px]  opacity-100 visible flex lg:opacity-0 lg:hidden  h-[40px]  rounded-full  justify-center items-center hover:bg-[#aaa0eb] text-black hover:text-white transition-all duration-300 ease-in-out cursor-pointer  ml-4"
                   >
                     <FiMoon className="  text-3xl" />
                   </span>
                 ) : (
                   <span
                     onClick={() => handle('light')}
-                    className="bg-[#4D4D4D] w-[40px] h-[40px] rounded-full  opacity-100 visible flex lg:opacity-0 lg:hidden justify-center items-center hover:bg-[#ef4060] transition-all duration-300 ease-in-out cursor-pointer  ml-4"
+                    className="bg-[#4D4D4D] w-[40px] h-[40px] rounded-full  opacity-100 visible flex lg:opacity-0 lg:hidden justify-center items-center hover:bg-[#aaa0eb] transition-all duration-300 ease-in-out cursor-pointer  ml-4"
                   >
                     <FiSun className="text-white text-3xl" />
                   </span>
@@ -44,7 +44,7 @@ const Header = () => {
                 {!menuOpen ? (
                   <span
                     onClick={() => setMenuOpen(!menuOpen)}
-                    className="lg:opacity-0 lg:invisible visible opacity-100  bg-[#ef4060] w-[40px] h-[40px] rounded-full flex justify-center cursor-pointer items-center text-white dark:text-white text-3xl ml-3 "
+                    className="lg:opacity-0 lg:invisible visible opacity-100  bg-[#aaa0eb] w-[40px] h-[40px] rounded-full flex justify-center cursor-pointer items-center text-white dark:text-white text-3xl ml-3 "
                   >
                     <AiOutlineMenu />
                   </span>
@@ -84,16 +84,16 @@ const Header = () => {
                     activeClassName={`${
                       menuOpen
                         ? ' text-[#FA5252] dark:text-[#FA5252] '
-                        : ' text-white  dark:text-white bg-gradient-to-r from-[#FA5252] to-[#DD2476] '
+                        : ' text-white  dark:text-white bg-gradient-to-r from-[#aaa0eb] to-[#a299da] '
                     }`}
                     inactiveClassName={`${
                       menuOpen
                         ? ' dark:hover:text-[#FA5252]'
-                        : '  dark:hover:text-white dark:bg-[#212425] hover:text-white   hover:bg-gradient-to-r from-[#FA5252] to-[#DD2476] dark:text-[#A6A6A6] '
+                        : '  dark:hover:text-white dark:bg-[#212425] hover:text-white   hover:bg-gradient-to-r from-[#aaa0eb] to-[#a299da] dark:text-[#A6A6A6] '
                     }  transition-all duration-300 ease-in-out `}
                     className={`${
-                      a.pathname === '/home' && item.id === '01'
-                        ? 'text-white linked dark:text-white bg-gradient-to-r from-[#FA5252] to-[#DD2476] '
+                      a.pathname === '/homePage' && item.id === '01'
+                        ? 'text-white linked dark:text-white bg-gradient-to-r from-[#aaa0eb] to-[#a299da]'
                         : ' '
                     } ${
                       menuOpen
@@ -113,14 +113,14 @@ const Header = () => {
               {!check ? (
                 <span
                   onClick={() => handle('dark')}
-                  className="bg-white w-[40px] hover:text-white hidden  h-[40px] rounded-full lg:flex justify-center items-center text-black hover:bg-[#ef4060] transition-all duration-300 ease-in-out cursor-pointer ml-2 "
+                  className="bg-white w-[40px] hover:text-white hidden  h-[40px] rounded-full lg:flex justify-center items-center text-black hover:bg-[#aaa0eb] transition-all duration-300 ease-in-out cursor-pointer ml-2 "
                 >
                   <FiMoon className="  text-3xl" />
                 </span>
               ) : (
                 <span
                   onClick={() => handle('light')}
-                  className="bg-[#4D4D4D] w-[40px] h-[40px] hidden  rounded-full lg:flex justify-center items-center   hover:bg-[#ef4060] transition-all duration-300 ease-in-out cursor-pointer ml-2"
+                  className="bg-[#4D4D4D] w-[40px] h-[40px] hidden  rounded-full lg:flex justify-center items-center   hover:bg-[#aaa0eb] transition-all duration-300 ease-in-out cursor-pointer ml-2"
                 >
                   <FiSun className="text-white text-3xl" />
                 </span>
