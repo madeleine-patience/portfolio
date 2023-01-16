@@ -41,7 +41,7 @@ const HomePage = () => {
           <div className="flex space-x-3">
             <a
               d44d3a158a39774d5f54aacc8ae4ad5ea7b5b428
-              href="https://twitter.com/madeleinebelan1"
+              href="https://github.com/madeleinebelanger"
               target="_blank"
               rel="noopener noreferrer"
             >

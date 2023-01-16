@@ -206,6 +206,20 @@ const AllData = () => {
       description:
         'A full stack application for developers to track their personal projects, clients, study to do items and more!',
     },
+    {
+      id: '7',
+      tag: 'Full Stack ',
+      title: 'Web Development',
+      img: work7,
+      imgSmall: work7,
+      bg: '#F4F4FF',
+      client: 'Considerate Cat',
+      langages: 'HTML, Javascript, CSS, API call ',
+      link: 'https://tarot-picker.netlify.app/',
+      linkText: 'Tarot Picker',
+      description:
+        'Get your one card tarot pull here with an integrated API call to pull a tarot card.',
+    },
   ]
   const [data, setData] = useState(workItems)
 
