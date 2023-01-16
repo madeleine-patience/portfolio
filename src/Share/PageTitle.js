@@ -1,12 +1,12 @@
-import React from "react";
-import { Helmet } from "react-helmet-async";
+import React from 'react'
+import { Helmet } from 'react-helmet-async'
 
 const PageTitle = ({ title }) => {
   return (
     <Helmet>
-      <title>{title} - Bostami Tailwind React Portfolio Template</title>
+      <title>{title}- Madeleine Portfolio</title>
     </Helmet>
-  );
-};
+  )
+}
 
-export default PageTitle;
+export default PageTitle
