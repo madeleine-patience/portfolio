@@ -208,8 +208,8 @@ const AllData = () => {
     },
     {
       id: '7',
-      tag: 'Full Stack ',
-      title: 'Web Development',
+      tag: 'API and API call ',
+      title: 'Tarot Picker',
       img: work7,
       imgSmall: work7,
       bg: '#F4F4FF',
@@ -219,6 +219,20 @@ const AllData = () => {
       linkText: 'Tarot Picker',
       description:
         'Get your one card tarot pull here with an integrated API call to pull a tarot card.',
+    },
+    {
+      id: '8',
+      tag: 'Web Development (in progress)',
+      title: 'GIC-Compare',
+      img: work6,
+      imgSmall: work6,
+      bg: '#FFF3FC',
+      client: 'Agency Client',
+      langages: 'HTML, Tailwind, Javascript, CSS, Google Integrations',
+      link: 'https://giccompare.onrender.com/',
+      linkText: 'Canadian Interest Rates ',
+      description:
+        'This is a client project that focuses on displaying Canadian interest rates to users. I used tailwind primarily to create the design as well as a google sheets integration.',
     },
   ]
   const [data, setData] = useState(workItems)
