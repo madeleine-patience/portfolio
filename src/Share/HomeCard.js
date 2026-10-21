@@ -1,5 +1,4 @@
 import React from 'react'
-import cvFile from '../assets/images/Madeleine resume- updated 2023.pdf'
 import {
   FaCalendarAlt,
   FaDribbble,
@@ -18,11 +17,11 @@ const HomeCard = () => {
   return (
     <div>
       <div className="w-full mb-6 lg:mb-0  mx-auto   relative bg-white text-center dark:bg-[#111111] px-6 rounded-[20px] mt-[180px] md:mt-[220px] lg:mt-0 ">
-        <img
+        {/* <img
           src={img}
           className="w-[240px] absolute left-[50%] transform -translate-x-[50%] h-[240px] drop-shadow-xl mx-auto  rounded-[20px] -mt-[140px]"
           alt=""
-        />
+        /> */}
         {/* Social card */}
         <div className="pt-[100px] pb-8">
           <h1 className="mt-6 mb-1 text-5xl font-semibold  dark:text-white">

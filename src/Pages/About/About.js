@@ -42,12 +42,8 @@ const About = () => {
                 <div className="col-span-12 md:col-span-8 space-y-2.5">
                   {/* About me information */}
                   <div className=" md:mr-12 xl:mr-16">
-                    <h3 className="text-4xl font-medium dark:text-white mb-2.5 ">
-                      Who am i?
-                    </h3>
                     <p className="text-gray-lite  dark:text-color-910 leading-7">
-                      Hi! My name is Madeleine and I am a full stack software
-                      developer! Prior to making the switch from Marketing to
+                      Hi, I'm Madeleine, and I'm am a front-end software developer! Prior to making the switch from Marketing to
                       Tech- I worked for well known startups doing product
                       building and influencer marketing. This helped me to
                       realize that what I really wanted to do was the building
@@ -55,40 +51,19 @@ const About = () => {
                       combined with a degree in psychology - I can communicate
                       my ideas clearly, build what I need to build and make it
                       look good! I see myself as an enthusiastic, hardworking,
-                      life long learner with a positive attitude and a desire to
-                      show up and get the job done every day.
+                      life long learner with a positive attitude.
                     </p>
                     <p className="text-gray-lite leading-7 mt-8 dark:text-color-910">
-                      If you want to chat I'd love to talk anything tech
-                      related, #womenInTech, film photography, "west coast is
-                      best coast" or local coffee shop reccomendations!
+                     For the last 4 years I've been building products for the <a href="https://www.moneris.com/en/solutions/restaurants/online-ordering">UEAT</a> ecosystem. Anything from online ordering, to SMS marketing tools to POS systems. I have experience with a variety of libraries and tools.
                     </p>
                   </div>
-
                   {/* personal information */}
                   <div>
                     <h3 className="text-4xl font-medium my-5 dark:text-white">
-                      Personal Info
+                     Get in touch:
                     </h3>
                     <div className=" grid grid-cols-1 sm:grid-cols-2 gap-6">
-                      <div className="flex">
-                        <span className="text-oriange dark:bg-color-990 shadow-icon mr-2.5 flex items-center justify-center rounded-md text-2xl w-12 text-">
-                          <FaMobileAlt />
-                        </span>
-                        <div className="space-y-1">
-                          <p className="text-xs text-gray-lite dark:text-color-910">
-                            Phone
-                          </p>
-                          <h6 className="font-medium dark:text-white">
-                            <a
-                              className="hover:text-[#FA5252] duration-300 transition"
-                              href="tel:+1234567890"
-                            >
-                              +1 250 857 2308
-                            </a>
-                          </h6>
-                        </div>
-                      </div>
+                 
                       <div className="flex">
                         <span className="text-oriange-lite dark:bg-color-990 shadow-icon mr-2.5 flex items-center justify-center rounded-md text-2xl w-12 text-">
                           <FaMapMarkerAlt />
@@ -98,8 +73,7 @@ const About = () => {
                             Location
                           </p>
                           <h6 className="font-medium dark:text-white">
-                            Victoria B.C.
-                          </h6>
+Québec City                          </h6>
                         </div>
                       </div>
                       <div className="flex">
@@ -120,19 +94,7 @@ const About = () => {
                           </h6>
                         </div>
                       </div>
-                      <div className="flex">
-                        <span className="text-color-50 dark:bg-color-990 shadow-icon mr-2.5 flex items-center justify-center rounded-md text-2xl w-12 text-">
-                          <FaRegCalendarAlt />
-                        </span>
-                        <div className="space-y-1">
-                          <p className="text-xs text-gray-lite dark:text-color-910">
-                            Birthday
-                          </p>
-                          <h6 className="font-medium dark:text-white">
-                            July 8th, 1990
-                          </h6>
-                        </div>
-                      </div>
+         
                     </div>
                   </div>
                   {/* End personal information */}
@@ -141,15 +103,11 @@ const About = () => {
             </div>
 
             <div className="  pb-12 ">
-              <h3 className="text-[35px] dark:text-white font-medium pb-5">
-                Services
-              </h3>
+        
               <div className="">
                 {/* Experience information  */}
 
-                {serviceArray.map((item, i) => (
-                  <AboutCard key={i} item={item} local={local} />
-                ))}
+          
               </div>
             </div>
 

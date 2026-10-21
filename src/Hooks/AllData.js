@@ -9,6 +9,8 @@ import work6 from '../assets/images/work_images/6.jpg'
 import work7 from '../assets/images/work_images/7.jpg'
 import work8 from '../assets/images/work_images/8.jpg'
 import work9 from '../assets/images/work_images/9.jpg'
+import work10 from '../assets/images/work_images/10.jpg'
+
 // works small images
 import workSmall1 from '../assets/images/work_images/small/1.jpg'
 import workSmall2 from '../assets/images/work_images/small/2.jpg'
@@ -19,6 +21,8 @@ import workSmall6 from '../assets/images/work_images/small/6.jpg'
 import workSmall7 from '../assets/images/work_images/small/7.jpg'
 import workSmall8 from '../assets/images/work_images/small/8.jpg'
 import workSmall9 from '../assets/images/work_images/small/9.jpg'
+import workSmall10 from '../assets/images/work_images/small/10.jpg'
+
 // blog post images
 import blog6 from '../assets/images/blog_images/6.jpg'
 import blog4 from '../assets/images/blog_images/4.jpg'
@@ -139,7 +143,7 @@ const AllData = () => {
   const workItems = [
     {
       id: '1',
-      tag: 'App Development',
+      tag: 'Final Project - School',
       title: 'Lucent App',
       img: work9,
       imgSmall: work9,
@@ -159,26 +163,27 @@ const AllData = () => {
       imgSmall: workSmall2,
       bg: '#FFF3FC',
       client: 'Considerate Cat ',
-      langages: 'HTML, CSS, Javascript',
+      langages: 'MUI, TypeScript, Storybook, PlayWright, SupaBase',
       link: 'www.consideratecat.com',
+      linkText: 'Considerate Cat',
+      description:
+        'A full stack application using the same stack as we use at UEAT.',
+    },
+    {
+      id: '10',
+      tag: 'Web Design and Development',
+      title: 'Considerate Cat App',
+      img: workSmall10,
+      imgSmall: workSmall10,
+      bg: '#FFF3FC',
+      client: 'Considerate Cat ',
+      langages: 'CSS, Javascript',
+      link: 'https://considerate-cat-version-git-54d240-madeleinebelangers-projects.vercel.app/card-directory',
       linkText: 'Considerate Cat',
       description:
         'A full stack wordpress site that I have been developing and maintaining for years. From design to managing plugins this site is as functional as it is adorable! Come for the website application but stay for the kittens!',
     },
 
-    {
-      id: '4',
-      tag: 'Website Development',
-      title: 'Breath',
-      img: workSmall4,
-      imgSmall: workSmall4,
-      bg: '#E9FAFF',
-      client: 'Breath Yoga ',
-      langages: 'CSS & HTML',
-      linkText: 'Breath',
-      description:
-        ' A Static site for a local yoga studio. Clean, minamalist and functional',
-    },
     {
       id: '5',
       tag: 'Web Development',
@@ -187,7 +192,7 @@ const AllData = () => {
       imgSmall: workSmall1,
       bg: '#FFF0F0',
       client: 'Island Dog',
-      langages: 'HTML, Javascript, CSS, Tailwind',
+      langages: 'Javascript, CSS, Tailwind',
       link: 'https://island-dog.netlify.app/',
       linkText: 'www.islanddog.com',
       description: 'A site for a local dog rescue. My dream client.',
@@ -199,40 +204,11 @@ const AllData = () => {
       img: work8,
       imgSmall: work8,
       bg: '#F4F4FF',
-      client: 'Envato',
+      client: 'School Project',
       langages: 'Node.Js, EJS, Javascript, MongoDB, Express',
-      link: 'https://teamasaurus-devdays.herokuapp.com/',
       linkText: 'Dev Days',
       description:
         'A full stack application for developers to track their personal projects, clients, study to do items and more!',
-    },
-    {
-      id: '7',
-      tag: 'API and API call ',
-      title: 'Tarot Picker',
-      img: work7,
-      imgSmall: work7,
-      bg: '#F4F4FF',
-      client: 'Considerate Cat',
-      langages: 'HTML, Javascript, CSS, API call ',
-      link: 'https://tarot-picker.netlify.app/',
-      linkText: 'Tarot Picker',
-      description:
-        'Get your one card tarot pull here with an integrated API call to pull a tarot card.',
-    },
-    {
-      id: '8',
-      tag: 'Web Development (in progress)',
-      title: 'GIC-Compare',
-      img: work6,
-      imgSmall: work6,
-      bg: '#FFF3FC',
-      client: 'Agency Client',
-      langages: 'HTML, Tailwind, Javascript, CSS, Google Integrations',
-      link: 'https://giccompare.onrender.com/',
-      linkText: 'Canadian Interest Rates ',
-      description:
-        'This is a client project that focuses on displaying Canadian interest rates to users. I used tailwind primarily to create the design as well as a google sheets integration.',
     },
   ]
   const [data, setData] = useState(workItems)
@@ -533,13 +509,7 @@ const AllData = () => {
 
   // Personal information for contact pages
   const contactArray = [
-    {
-      id: '01',
-      icon: iconPhone,
-      title: 'Phone ',
-      item1: '+250 857 2308',
-      bg: '#FCF4FF',
-    },
+
     {
       id: '02',
       icon: iconEmail,

@@ -1,7 +1,7 @@
 import React from 'react'
 import userImage from '../../assets/images/about/avatar.jpg'
 import downloadIcon from '../../assets/images/download.png'
-import cvFile from '../../assets/images/Madeleine resume- updated 2023.pdf'
+import cvFile from '../../assets/images/Madeleine-Resume-2026.pdf'
 import Header from '../../Share/Header'
 
 import {
@@ -25,15 +25,15 @@ const MainPage = () => {
           className="flex flex-col items-center h-[100vh] md:h-[90vh] lg:h-[80vh]  xl:h-[71vh]  justify-center"
           data-aos="fade"
         >
-          <img
+          {/* <img
             className="rounded-full w-[250px] h-[250px] 2xl:w-[280px] 2xl:h-[280px]"
             src={userImage}
             alt=""
-          />
+          /> */}
           <h3 className="mt-6 mb-1 text-5xl font-semibold dark:text-white">
             Madeleine Belanger
           </h3>
-          <p className="mb-4 text-[#7B7B7B]">Full Stack Developer</p>
+          <p className="mb-4 text-[#7B7B7B]">Front-End Developer</p>
           {/* Avatar Info End */}
 
           {/* Social information start */}
@@ -63,7 +63,7 @@ const MainPage = () => {
             {/* git hub  */}
 
             <a
-              href="https://twitter.com/madeleinebelan1"
+              href="https://bsky.app/profile/madeleine.bsky.social"
               target="_blank"
               rel="noopener noreferrer"
             >
